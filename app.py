@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 def load_data():
-    file = 'Bakeryapp/Bakery-sales.csv'
+    file = 'Bakery sales.csv'
     df = pd.read_csv(file)
     df.rename(columns={'Unnamed: 0': 'id',
                 'article':'product',
